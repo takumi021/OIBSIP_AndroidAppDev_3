@@ -1,10 +1,27 @@
+# Gradle cache
+.gradle/
+
+# Build folder
+build/
+
+# Local properties
+local.properties
+
+# Android Studio project files
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea
-/.kotlin
+*.hprof
+
+# Mac files
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# APKs and bundles
+*.apk
+*.aab
+*.ap_
+
+# Other
+captures/
+.externalNativeBuild/
+.cxx/
+*.log
